@@ -20,6 +20,8 @@ slowv:
     allow-credentials: true
     max-age: 1800
 spring:
+  application:
+    name: Cache Redis
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:postgresql://localhost:5432/vspace

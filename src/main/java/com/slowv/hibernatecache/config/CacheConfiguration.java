@@ -65,7 +65,8 @@ public class CacheConfiguration {
         return hibernateProperties -> hibernateProperties.put(ConfigSettings.CACHE_MANAGER, cm);
     }
 
-    @Bean public JCacheManagerCustomizer cacheManagerCustomizer(javax.cache.configuration.Configuration<Object, Object> jcacheConfiguration) {
+    @Bean
+    public JCacheManagerCustomizer cacheManagerCustomizer(javax.cache.configuration.Configuration<Object, Object> jcacheConfiguration) {
         log.info("Config {}", jcacheConfiguration);
         return cm -> {
             createCache(cm, com.slowv.hibernatecache.domain.Product.class.getName(), jcacheConfiguration);
