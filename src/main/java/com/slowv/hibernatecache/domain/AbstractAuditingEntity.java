@@ -1,4 +1,4 @@
-package com.vssoft.vspace.domain;
+package com.slowv.hibernatecache.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.Column;

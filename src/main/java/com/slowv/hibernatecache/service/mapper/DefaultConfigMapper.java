@@ -1,4 +1,4 @@
-package com.vssoft.vspace.service.mapper;
+package com.slowv.hibernatecache.service.mapper;
 
 import org.mapstruct.MapperConfig;
 import org.mapstruct.ReportingPolicy;

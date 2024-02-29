@@ -1,7 +1,7 @@
-package com.vssoft.vspace.service.mapper;
+package com.slowv.hibernatecache.service.mapper;
 
-import com.vssoft.vspace.domain.Product;
-import com.vssoft.vspace.service.dto.ProductDTO;
+import com.slowv.hibernatecache.domain.Product;
+import com.slowv.hibernatecache.service.dto.ProductDTO;
 import org.mapstruct.Mapper;
 
 @Mapper(config = DefaultConfigMapper.class)

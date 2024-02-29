@@ -1,4 +1,4 @@
-package com.vssoft.vspace.config;
+package com.slowv.hibernatecache.config;
 
 import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletException;
@@ -33,9 +33,9 @@ public class WebConfigurer implements ServletContextInitializer, WebServerFactor
 
     private final Environment env;
 
-    private final VSpaceProperties properties;
+    private final SlowvProperties properties;
 
-    public WebConfigurer(Environment env, VSpaceProperties properties) {
+    public WebConfigurer(Environment env, SlowvProperties properties) {
         this.env = env;
         this.properties = properties;
     }

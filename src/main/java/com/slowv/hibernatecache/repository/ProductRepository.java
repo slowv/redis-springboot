@@ -1,6 +1,6 @@
-package com.vssoft.vspace.repository;
+package com.slowv.hibernatecache.repository;
 
-import com.vssoft.vspace.domain.Product;
+import com.slowv.hibernatecache.domain.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 
