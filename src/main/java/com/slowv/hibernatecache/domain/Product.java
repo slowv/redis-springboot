@@ -32,6 +32,6 @@ public class Product extends AbstractAuditingEntity<String> {
     private String name;
 
     @Lob
-    @Column(name = "content")
+    @Column(name = "content", columnDefinition = "TEXT")
     private String content;
 }
